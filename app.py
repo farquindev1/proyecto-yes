@@ -9,9 +9,16 @@ def index ():
 def redes():
     return render_template ('redes.html')
 
+@app.route ('/prueba')
+def pruebas ():
+    return render_template ('prueba.html')
+
+
 @app.route ('/contacto')
 def contacto():
     return render_template ('contacto.html')
+
+
 
 
 
